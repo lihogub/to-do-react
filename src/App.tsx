@@ -70,8 +70,10 @@ function App() {
                 <Row justify={'center'}>
                     <Button type={"primary"} style={{width: 25 + '%'}} ghost={!todoText} onClick={addTodo}>Add</Button>
                 </Row>
-                {Object.keys(todoMap).reverse().map((id: any) => (
+                {Object.keys(todoMap).reverse().map((id: any, index: number) => (
                     <TodoItem key={id}
+                              id={id}
+                              index={index}
                               {...todoMap[id]}
                               updateTodo={(payload: any) => updateTodo(id, payload)}
                               deleteTodo={() => deleteTodo(id)}/>))}
