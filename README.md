@@ -1,3 +1,5 @@
+[![](https://s4.gifyu.com/images/todoapp7dbfdd6ff208c448.gif)]()
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
